@@ -1,0 +1,15 @@
+@import '../../styles/variables.scss';
+
+.tools {
+    &__btn {
+        background-color: #EC0033;
+        font-weight: bold;
+        letter-spacing: 0.1em;
+
+        padding: 15px 25px;
+        border-radius: 5px;
+
+        text-transform: uppercase;
+        color: $mainColor;
+    }
+}

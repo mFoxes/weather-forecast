@@ -1,0 +1,90 @@
+@import "./variables";
+
+.app {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+
+    background-color: $bgColor;
+
+    // .app__container
+    &__container {
+    }
+
+    // .app__tools
+    &__tools {
+        color: $mainColor;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 40px 0;
+        gap: 40px;
+    }
+
+    // .app__body
+    &__body {
+        display: flex;
+        justify-content: center;
+
+        flex-wrap: wrap;
+
+        gap: 40px;
+
+        padding: 60px 0 100px;
+    }
+}
+.tools {
+    // .tools__search
+    &__search {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    // .tools__input
+    &__input {
+    }
+
+    // .tools__btn
+    &__btn {
+    }
+
+    // .tools__inputlist
+    &__inputlist {
+        position: relative;
+    }
+
+    // .tools__list
+    &__list {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 0;
+        opacity: 0;
+        overflow-y: scroll;
+        background-color: $bgColor;
+        transition: all 0.5s linear;
+
+        li {
+            padding: 10px 0;
+            width: 100%;
+            font-size: 18px;
+
+            cursor: pointer;
+        }
+
+        &._active {
+            height: 400px;
+            top: 50px;
+            opacity: 1;
+        }
+    }
+}

@@ -1,0 +1,63 @@
+@import '../../styles/variables.scss';
+
+.card {
+    color: BLACK;
+    background-color: $mainColor;
+    padding: 40px;
+
+    width: 200px;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.name {
+    width: fit-content;
+}
+
+.title {
+    display: flex;
+    align-items: flex-start;
+
+    font-size: 24px;
+}
+
+.country {
+    font-size: 12px;
+    border-radius: 8px;
+    background-color: #FFAA00;
+
+    padding: 1px 4px;
+
+}
+
+.temp {
+    font-size: 64px;
+
+    display: flex;
+    align-items: start;
+    gap: 10px;
+}
+
+.cels {
+    font-size: 38px;
+}
+
+.weather {
+    gap: 20px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.descr {
+
+}

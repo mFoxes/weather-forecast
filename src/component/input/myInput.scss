@@ -1,0 +1,19 @@
+@import "../../styles/variables.scss";
+
+.tools {
+    &__input {
+        font-size: 24px;
+        color: $mainColor;
+
+        padding: 5px;
+
+        border-bottom: 1px $mainColor solid;
+        background-color: inherit;
+        outline: none;
+
+        &::placeholder {
+            color: $mainColor;
+            opacity: 0.6;
+        }
+    }
+}
