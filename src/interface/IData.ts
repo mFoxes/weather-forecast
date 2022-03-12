@@ -3,7 +3,8 @@ export interface IData {
         "lon": number,
         "lat": number
     },
-    "weather": [
+    "weather":
+    [
         {
             "id": number,
             "main": string,
@@ -14,11 +15,10 @@ export interface IData {
     "base": string,
     "main": {
         "temp": number,
-        "feels_like": number,
-        "temp_min": number,
-        "temp_max": number,
         "pressure": number,
-        "humidity": number
+        "humidity": number,
+        "temp_min": number,
+        "temp_max": number
     },
     "visibility": number,
     "wind": {
@@ -37,7 +37,6 @@ export interface IData {
         "sunrise": number,
         "sunset": number
     },
-    "timezone": number,
     "id": number,
     "name": string,
     "cod": number
