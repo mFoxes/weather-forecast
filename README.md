@@ -1,6 +1,6 @@
 # Website
 
-url: 
+url: https://weather-forecast-alpha.vercel.app/
 
 # Getting Started with Create React App
 
